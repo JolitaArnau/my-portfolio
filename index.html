@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+
+    <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    <!--Custom Stylesheets-->
+
+    <!--Custom Stylesheet-->
+        <link rel="stylesheet" href="customStyleSheet.css">
+    <!--Font Awsome-->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+
+    <!--Scripts-->
+        <!--Bootstrap JavaScript-->
+            <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+            <script src="sideOpeningNavBar.js"></script>
+
+
+</head>
+<body>
+<div id="wrapper">
+    <div class="overlay"></div>
+
+    <!-- Sidebar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+        <ul class="nav sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">
+                    WELCOME
+                </a>
+            </li>
+            <li>
+                <a href="#">Hello</a>
+            </li>
+            <li>
+                <a href="#">Path</a>
+            </li>
+            <li>
+                <a href="#">What I Like</a>
+            </li>
+            <li>
+                <a href="#">What I Do With My Time</a>
+            </li>
+            <li>
+                <a href="#">Projects</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+        </button>
+    </div>
+    <div class="container-fluid" id="intro-section">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="centered">HI, MY NAME IS JOLITA. I'M A WEB DEVELOPMENT STUDENT BASED IN MUNICH, GERMANY.</h1>
+                <h3>I discovered my passion for coding and web development in July 2016. Since I've done a couple of
+                personal projects and an internship at an IT Company in Munich. Currently I'm studying at the Software
+                University(SoftUni) as an Online-Student.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="path-section">
+        <div class="row">
+            <div class="col-md-3" id="path-section-gym">
+                <h1 class="bouncing">Gym<span class="glyphicon glyphicon-apple"></span></h1>
+                <h3 class="date-finalized">06/2014 - 12/2016</h3>
+            </div>
+
+            <div class="col-md-3" id="path-section-coding">
+                <h1 class="bouncing">Coding <i class="fa fa-code" aria-hidden="true"></i></h1>
+                <h3 class="date-coding">07/2016</h3>
+            </div>
+
+            <div class="col-md-3" id="path-section-intern">
+                <h1 class="bouncing">Internship <i class="fa fa-desktop" aria-hidden="true"></i></h1>
+                <h3 class="date-finalized">01/2017 - 06/2017</h3>
+            </div>
+
+            <div class="col-md-3" id="path-section-uni">
+                <h1 class="bouncing">University  <i class="fa fa-university" aria-hidden="true"></i></h1>
+                <h3 class="date-uni">09/2017</h3>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
