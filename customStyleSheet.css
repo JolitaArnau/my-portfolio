@@ -9,9 +9,7 @@ html { height: 100%;}
 .nav .open > a:hover,
 .nav .open > a:focus {background-color: transparent;}
 
-/*-------------------------------*/
-/*           Wrappers            */
-/*-------------------------------*/
+/* WRAPPERS */
 
 #wrapper {
     padding-left: 0;
@@ -58,10 +56,7 @@ html { height: 100%;}
     margin-right: -220px;
 }
 
-/*-------------------------------*/
-/*     Sidebar nav styles        */
-/*-------------------------------*/
-
+/* SIDEBAR NAV STYLES */
 .sidebar-nav {
     position: absolute;
     top: 0;
@@ -165,10 +160,7 @@ html { height: 100%;}
     box-shadow: none;
 }
 
-/*-------------------------------*/
-/*       Hamburger-Cross         */
-/*-------------------------------*/
-
+/* HAMBURGER CROSS */
 .hamburger {
     position: fixed;
     top: 20px;
@@ -279,9 +271,7 @@ html { height: 100%;}
     -webkit-transition: all .35s ease-in-out;
 }
 
-/*-------------------------------*/
-/*            Overlay            */
-/*-------------------------------*/
+/* OVERLAY */
 
 .overlay {
     position: fixed;
@@ -296,20 +286,28 @@ html { height: 100%;}
     z-index: 1;
 }
 
-.centered {
-    font-size: 4em;
-}
-
  .container-fluid {
      padding: 50px;
 
  }
 
+
+ /* SECTION COLORS */
  #intro-section {
      background-color: #ec1b5a;
  }
 #path-section {
     background-color:#79aefe;
+}
+
+#haves-section {
+    background-color: #314190 ;
+}
+
+/* HEADINGS */
+
+.centered {
+    font-size: 4em;
 }
 
 #path-section-gym > h1{
@@ -327,6 +325,17 @@ html { height: 100%;}
 #path-section-uni > h1{
     color: coral;
 }
+
+.haves-h1 {
+    color: #FBEDCA;
+}
+
+.haves-h3 {
+    color: #f2f2f2;
+}
+
+
+/* EFFECTS */
 
 @keyframes bounce {
     0%, 20%, 60%, 100% {
@@ -381,4 +390,35 @@ html { height: 100%;}
 
 .date-uni:hover:before {
     width: 20%;
+}
+
+#hidden-full-star {
+    visibility: hidden;
+    margin-left: 100px;
+    color: yellow;
+}
+
+#hidden-half-star {
+    visibility: hidden;
+    margin-left: 10px;
+    color: yellow;
+}
+
+#hidden-fullStar {
+    margin-left: 100px;
+    color: yellow;
+    visibility: hidden;
+}
+
+
+.count {
+    line-height: 100px;
+    color:white;
+    margin-left:30px;
+    font-size: 2em;
+}
+
+.out-of-value {
+    color: white;
+    font-size: 1.3em;
 }
