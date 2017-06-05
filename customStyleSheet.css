@@ -301,7 +301,23 @@ html { height: 100%;}
 }
 
 #haves-section {
-    background-color: #314190 ;
+    background-color: #314190;
+}
+
+#hobbies {
+    background-color: #279636;
+}
+
+#projects {
+    background-color: #7D5D81;
+}
+
+.thumbnail {
+    background-color: #7D5D81;
+}
+
+#contact {
+    background-color: #EAD24C;
 }
 
 /* HEADINGS */
@@ -323,7 +339,7 @@ html { height: 100%;}
 }
 
 #path-section-uni > h1{
-    color: coral;
+    color: #F2F2FA;
 }
 
 .haves-h1 {
@@ -332,6 +348,17 @@ html { height: 100%;}
 
 .haves-h3 {
     color: #f2f2f2;
+}
+
+#hobbies > div > div > h1{
+    color: #FBEDCA;
+}
+
+#projects > div > div > h1 {
+    color: #FBEDCA;
+}
+#projects > div > div > div.col-md-12 > h3 {
+    color: #FBEDCA;
 }
 
 
@@ -421,4 +448,57 @@ html { height: 100%;}
 .out-of-value {
     color: white;
     font-size: 1.3em;
+}
+
+.project-references {
+    width: 270px;
+    height: 270px;
+}
+
+.technologies-used {
+    list-style: none;
+    font-size: 1.5em;
+    color: #FBEDCA;
+}
+
+#projects > div > div > div.col-md-5.col-md-offset-3 > div > div > ul > li:nth-child(8) > a {
+    text-decoration: none;
+}
+
+.link {
+    color: #FBEDCA;
+}
+
+
+.contact-button {
+    padding: 10px;
+    margin: 0;
+    border: 1px solid greenyellow;
+    font-size: 1.5em;
+    background-color: #EAD24C;
+    color: #333333;
+}
+
+.contact-button:hover {
+    background-color: greenyellow;
+}
+
+#social-icons {
+    font-size: 1.5em;
+}
+
+#facebook {
+    color: #4660A0;
+}
+
+#linkedin {
+    color: #0077B5;
+}
+
+#xing {
+    color: #007575;
+}
+
+#github {
+    color: #000;
 }

@@ -11,10 +11,7 @@ function showHalfStar() {
 function showFullStarIntern() {
     var fullStarIntern = document.getElementById('hidden-fullStar');
     fullStarIntern.style.visibility = 'visible';
-    debugger;
 }
-
-
 
 $(document).ready(function () {
     $('.count').each(function () {
